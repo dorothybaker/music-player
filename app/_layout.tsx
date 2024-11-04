@@ -18,9 +18,8 @@ const App = () => {
 
 function RootLayout() {
   const [loaded] = useFonts({
-    Regular: require("../assets/fonts/Arima-Regular.ttf"),
-    Medium: require("../assets/fonts/Arima-Medium.ttf"),
-    Semibold: require("../assets/fonts/Arima-SemiBold.ttf"),
+    Regular: require("../assets/fonts/Bagoss-Regular.ttf"),
+    Medium: require("../assets/fonts/Bagoss-Medium.ttf"),
   });
 
   useEffect(() => {

@@ -1,10 +1,13 @@
+import TracksList from "@/components/TracksList";
 import { defaultStyles } from "@/styles";
-import { View, Text } from "react-native";
+import { View, ScrollView } from "react-native";
 
 const SongsScreen = () => {
   return (
     <View style={defaultStyles.container}>
-      <Text style={defaultStyles.text}>SongsScreen</Text>
+      <ScrollView>
+        <TracksList />
+      </ScrollView>
     </View>
   );
 };
